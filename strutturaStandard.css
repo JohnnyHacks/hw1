@@ -1,0 +1,86 @@
+html{
+    background-color: whitesmoke;
+}
+
+body {
+    font-family: 'Montaga', serif;
+    font-size: 16px;
+    margin: 0px 0px;
+  }
+
+  header{
+    color: white;
+    background-image: url('img/header.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100px;
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+  header::before{
+      position: absolute;
+      content: '';
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color:rgba(0,0,0,0.3);
+  }
+
+  header nav{
+      position: absolute; 
+      top: 0;
+      right: 0;
+      left: 0;
+   
+      padding: 20px;
+      align-items: center;
+      display: flex;
+      justify-content: space-between;
+  }
+
+  #logo{
+      font-size: 3em;
+      font-style: italic;
+      color: white;
+      text-decoration: none;
+  }
+
+  #links a{
+    margin: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+a{
+    cursor: pointer;   
+    color: white;
+    text-decoration: none;
+}
+
+a.pulsante{
+  background-color:grey;
+  border-radius: 100px;
+  padding: 10px 15px;
+  border: 2px solid white;
+}
+
+a.pulsante:hover{
+    background-color: black;
+    text-transform: uppercase;
+}
+
+  footer{
+    background-color:#292929;
+    margin: 40px 0px 0px 0px;
+    color: grey;
+    text-align:center;
+    letter-spacing: 2px;
+    padding: 50px;
+}

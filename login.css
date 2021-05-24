@@ -1,0 +1,86 @@
+footer{
+    background-color:#292929;
+    margin: 50px 0px 0px 0px;
+    color: grey;
+    text-align:center;
+    letter-spacing: 2px;
+    padding: 50px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+section a{
+    color: black;
+    text-decoration:underline;
+}
+
+section{
+    font-family: 'San Francisco', sans-serif;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 70px;
+    padding: 100px;
+    width: 20%;
+    margin: 0 auto;
+    background-color: #f4ede5;
+}
+
+section input{
+    background-color:white;
+    border-radius: 20px;
+    height: 30px;
+    text-align: center;
+    width: 177px;
+    margin: 0 auto;
+    outline: 0;
+}
+
+section label{
+    color: grey;
+}
+
+input[type=submit] {
+    background-color: black;
+    color: white;
+    width: 177px;
+}
+
+form span{
+    display: none;
+}
+
+.cella{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.errore{
+    display: inline-block;
+    color: red;
+}
+
+.accesso{
+    margin-top: 20px;
+}
+
+.signup{
+    margin-top: 20px;
+}
+
+@media (max-width: 500px) {
+   
+    footer{
+        position: unset;
+    }
+   
+    section{
+        width: 100%;
+        padding: 0px;
+        border: 0px;
+        border-radius: 0px;
+        padding-bottom: 40px;
+        padding-top: 40px;
+    }
+}

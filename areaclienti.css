@@ -1,0 +1,77 @@
+html{
+    position: relative;
+    min-height: 100%;
+}
+
+.logout{
+    text-align: end;
+    margin-top: -80px;
+    margin-right: 55px;
+}
+
+.logout a{
+    color: white;
+    background-color: black;
+    border: 2px solid grey;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+footer{
+    background-color:#292929;
+    margin: 50px 0px 0px 0px;
+    color: grey;
+    text-align:center;
+    letter-spacing: 2px;
+    padding: 50px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+#scritta{
+    font-size: 2.5em;
+}
+
+@media (max-width: 500px) {
+  
+    #lista{
+        width: 100%;
+        position: relative;
+        left: 0px;
+        margin-top: 50px;
+    }
+
+    .oggetto{
+        margin: 0px;
+        margin-bottom: 10px;
+        width: 46%;
+    }
+
+    .prodotti{
+        margin: 0px;
+        padding: 0px;
+        margin-top: -70px;
+    }
+
+    footer{
+        position: unset;
+    }
+
+    .prodotti label{
+        margin: 0px;
+    }
+
+    #scritta{
+        display: block;
+        font-size: 2em;
+        margin-top: -100px;
+    }
+
+    .logout{
+        margin: 0px;
+        position: relative;
+        bottom: 70px;
+    }
+}

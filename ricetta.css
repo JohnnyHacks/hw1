@@ -1,0 +1,116 @@
+#sezione-valoricibo{
+    margin-bottom: 100px;
+}
+
+.testo_prodotto{
+    display: flex;
+    flex-direction: column;
+    font-weight:bold;
+    width: 20%;
+    margin: 0 auto;
+    border-radius: 70px;
+    border: 2px solid black;
+    padding: 40px;
+    background-color: rgba(211, 211, 211, 0.767);
+}
+
+.testo_prodotto span{
+    font-weight: normal;
+}
+
+#testo{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: center;
+    width: 70%;
+    margin: 0 auto;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nomi_ingredienti{
+    display:flex;
+    flex-direction: column;
+}
+
+.preparazione, .ingredienti{
+    margin-right: 30px;
+    border-radius: 70px;
+    border: 2px solid black;
+    padding: 40px;
+    background-color: rgba(211, 211, 211, 0.767);
+}
+
+#sezione-valoricibo{
+    margin-top: 100px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:1.2em;
+}
+
+form{
+    text-align: center;
+    font-weight:bold;
+    margin-bottom: 30px;
+}
+
+
+#video{
+    display:flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+footer{
+    background-color:#292929;
+    margin: 50px 0px 0px 0px;
+    color: grey;
+    text-align:center;
+    letter-spacing: 2px;
+    padding: 50px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: -3%;
+}
+
+html{
+    position: relative;
+    min-height: 100%;
+}
+
+@media (max-width: 500px) {
+    #testo{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+    }
+
+    .preparazione, .ingredienti{
+        margin-top: -70px;
+        margin-right: 0px;
+        border: 0px;
+        border-radius: 0px;
+    }
+
+    .ingredienti{
+        margin-top: 0px;
+    }
+
+    .testo_prodotto{
+        width: 100%;
+        border: 0px;
+        border-radius: 0px;
+        margin-right: 0px;
+        padding: 0px;
+    }
+
+    form{
+        margin-top: -70px;
+    }
+
+    footer{
+        bottom: -5%;
+    }
+}
